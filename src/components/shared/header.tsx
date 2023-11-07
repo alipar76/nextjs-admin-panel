@@ -9,32 +9,12 @@ import "./header.scss";
 const Header = () => {
     const [isResized, setIsResized] = useState(false);
     const toggleSidebar = () => {
-        const element = document.getElementsByClassName("sidebar")[0];
-        const subMenuIcons = document.getElementsByClassName("submenu-icon");
-        const texts = document.getElementsByClassName("item-title");
-        const title = document.getElementsByTagName("h3")[0];
-        const settings = document.getElementsByClassName("settings")[0];
+        const sidebar = document.getElementsByClassName("sidebar")[0];
         if (isResized) {
-            element.style.width = "200px";
-            title.style.display = "block";
-            settings.style.flexDirection = "row";
-            for (let i = 0; i < texts.length; i++) {
-                texts[i].style.display = "block";
-            }
-            for (let i = 0; i < subMenuIcons.length; i++) {
-                subMenuIcons[i].style.display = "block";
-            }
+            sidebar.classList.remove("close");
             setIsResized(false);
         } else {
-            element.style.width = "50px";
-            title.style.display = "none";
-            settings.style.flexDirection = "column";
-            for (let i = 0; i < texts.length; i++) {
-                texts[i].style.display = "none";
-            }
-            for (let i = 0; i < subMenuIcons.length; i++) {
-                subMenuIcons[i].style.display = "none";
-            }
+            sidebar.classList.add("close");
             setIsResized(true);
         }
     };
