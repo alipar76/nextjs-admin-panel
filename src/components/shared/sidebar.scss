@@ -7,6 +7,7 @@
     background-color: #fff;
     border-right: 1px solid rgb(239, 239, 239);
     transition: 0.3s ease all;
+    color: rgb(82, 82, 82);
 }
 
 .close {
@@ -20,38 +21,18 @@
 
 .title {
     display: flex;
-    padding: 0.8rem;
+    padding: 0.79rem;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border-bottom: 1px solid rgb(245, 245, 245);
+    svg {
+        color: rgb(0, 156, 156);
+    }
     h3 {
         padding-left: 5px;
     }
 }
-
-// .menu {
-//     .item {
-//         a {
-//             display: flex;
-//             align-items: center;
-//             padding: 10px 20px;
-//             transition: 0.3s all ease;
-//             font-size: 13px;
-//             span {
-//                 padding-left: 7px;
-//                 flex: 1;
-//             }
-//             &:hover {
-//                 background-color: rgb(227, 255, 255);
-//                 color: rgb(0, 156, 156);
-//             }
-//         }
-//     }
-//     .dropdown {
-//         display: none;
-//     }
-// }
 
 .item {
     a {
@@ -77,8 +58,9 @@
 .settings {
     display: flex;
     justify-content: center;
+    align-items: center;
     border-top: 1px solid rgb(245, 245, 245);
-    padding: 10px 0px;
+    padding: 0.3rem 0.8rem;
     a {
         padding: 10px;
     }

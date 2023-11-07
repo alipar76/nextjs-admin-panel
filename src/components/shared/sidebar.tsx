@@ -23,33 +23,33 @@ const Sidebar = () => {
                         <li className="item">
                             <Link href="#">
                                 <AiOutlineHome size={18} />
-                                <span>Dashboard</span>
+                                <span className="item-title">Dashboard</span>
                             </Link>
                         </li>
                         <li className="item">
                             <Link href="#">
                                 <BsFillBasket2Fill size={18} />
-                                <span>Products</span>
+                                <span className="item-title">Products</span>
                                 <MdOutlineKeyboardArrowRight className="submenu-icon" />
                             </Link>
                         </li>
                         <li className="item">
                             <Link href="#">
                                 <BiCategoryAlt size={18} />
-                                <span>Categories</span>
+                                <span className="item-title">Categories</span>
                                 <MdOutlineKeyboardArrowRight className="submenu-icon" />
                             </Link>
                         </li>
                         <li className="item">
                             <Link href="#">
                                 <FaRegComments size={18} />
-                                <span>Comments</span>
+                                <span className="item-title">Comments</span>
                             </Link>
                         </li>
                         <li className="item">
                             <Link href="#">
                                 <MdEditNote size={18} />
-                                <span>Blogs</span>
+                                <span className="item-title">Blogs</span>
                             </Link>
                         </li>
                     </ul>

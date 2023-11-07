@@ -7,10 +7,14 @@ const Dashboard = () => {
         <main className="content">
             <h4>Dashboard</h4>
             <div className="dashboard-general-info">
-                <div className="card">card</div>
-                <div className="card">card</div>
-                <div className="card">card</div>
-                <div className="card">card</div>
+                <div className="card"></div>
+                <div className="card"></div>
+                <div className="card"></div>
+                <div className="card"></div>
+            </div>
+            <div className="dashboard-chart-section">
+                <div className="card"></div>
+                <div className="card"></div>
             </div>
         </main>
     );

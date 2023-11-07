@@ -11,11 +11,13 @@ const Header = () => {
     const toggleSidebar = () => {
         const element = document.getElementsByClassName("sidebar")[0];
         const subMenuIcons = document.getElementsByClassName("submenu-icon");
-        const texts = document.getElementsByTagName("span");
+        const texts = document.getElementsByClassName("item-title");
         const title = document.getElementsByTagName("h3")[0];
+        const settings = document.getElementsByClassName("settings")[0];
         if (isResized) {
             element.style.width = "200px";
             title.style.display = "block";
+            settings.style.flexDirection = "row";
             for (let i = 0; i < texts.length; i++) {
                 texts[i].style.display = "block";
             }
@@ -26,6 +28,7 @@ const Header = () => {
         } else {
             element.style.width = "50px";
             title.style.display = "none";
+            settings.style.flexDirection = "column";
             for (let i = 0; i < texts.length; i++) {
                 texts[i].style.display = "none";
             }
