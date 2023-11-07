@@ -25,6 +25,11 @@ const Sidebar = () => {
                                 <AiOutlineHome size={18} />
                                 <span className="item-title">Dashboard</span>
                             </Link>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <Link href="#">Dashboard</Link>
+                                </li>
+                            </ul>
                         </li>
                         <li className="item">
                             <Link href="#">
@@ -33,6 +38,9 @@ const Sidebar = () => {
                                 <MdOutlineKeyboardArrowRight className="submenu-icon" />
                             </Link>
                             <ul className="dropdown-menu">
+                                <li>
+                                    <Link href="#">Products</Link>
+                                </li>
                                 <li>
                                     <Link href="#">
                                         <MdOutlineKeyboardArrowRight className="submenu-icon" />
@@ -53,18 +61,45 @@ const Sidebar = () => {
                                 <span className="item-title">Categories</span>
                                 <MdOutlineKeyboardArrowRight className="submenu-icon" />
                             </Link>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <Link href="#">Categories</Link>
+                                </li>
+                                <li>
+                                    <Link href="#">
+                                        <MdOutlineKeyboardArrowRight className="submenu-icon" />
+                                        <span className="item-title">List</span>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#">
+                                        <MdOutlineKeyboardArrowRight className="submenu-icon" />
+                                        <span className="item-title">Add</span>
+                                    </Link>
+                                </li>
+                            </ul>
                         </li>
                         <li className="item">
                             <Link href="#">
                                 <FaRegComments size={18} />
                                 <span className="item-title">Comments</span>
                             </Link>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <Link href="#">Comments</Link>
+                                </li>
+                            </ul>
                         </li>
                         <li className="item">
                             <Link href="#">
                                 <MdEditNote size={18} />
                                 <span className="item-title">Blogs</span>
                             </Link>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <Link href="#">Blogs</Link>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </nav>

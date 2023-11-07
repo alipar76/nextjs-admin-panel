@@ -59,20 +59,23 @@
         }
     }
     &:hover .dropdown-menu {
+        visibility: visible;
+        transform: translateY(0);
         opacity: 1;
+        transition: 0.1s ease all;
     }
 }
 
 .dropdown-menu {
-    display: block;
+    visibility: hidden;
     position: absolute;
     top: 0%;
     left: 100%;
     opacity: 0;
     transition: 0.3s ease all;
     background-color: #fff;
-    z-index: 2;
     box-shadow: 2px 1px 6px 0px rgb(222, 222, 222);
+    transform: translateY(-50%);
     a {
         padding: 10px 20px;
         transition: 0.3s all ease;
