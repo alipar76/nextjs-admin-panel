@@ -35,6 +35,7 @@
 }
 
 .item {
+    position: relative;
     a {
         display: flex;
         align-items: center;
@@ -45,12 +46,45 @@
 
         span {
             flex: 1;
-            margin-left: 10px;
+            margin: 0px 10px;
         }
 
         &:hover {
             background-color: rgb(227, 255, 255);
             color: rgb(0, 156, 156);
+        }
+
+        &:hover .dropdown-menu {
+            display: block;
+        }
+    }
+    &:hover .dropdown-menu {
+        opacity: 1;
+    }
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    opacity: 0;
+    transition: 0.3s ease all;
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 2px 1px 6px 0px rgb(222, 222, 222);
+    a {
+        padding: 10px 20px;
+        transition: 0.3s all ease;
+        font-size: 13px;
+        span {
+            flex: 1;
+        }
+        svg {
+            transition: 0.4s ease all;
+        }
+        &:hover svg {
+            transform: translateX(3px);
         }
     }
 }

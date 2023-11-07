@@ -32,6 +32,20 @@ const Sidebar = () => {
                                 <span className="item-title">Products</span>
                                 <MdOutlineKeyboardArrowRight className="submenu-icon" />
                             </Link>
+                            <ul className="dropdown-menu">
+                                <li>
+                                    <Link href="#">
+                                        <MdOutlineKeyboardArrowRight className="submenu-icon" />
+                                        <span className="item-title">List</span>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#">
+                                        <MdOutlineKeyboardArrowRight className="submenu-icon" />
+                                        <span className="item-title">Add</span>
+                                    </Link>
+                                </li>
+                            </ul>
                         </li>
                         <li className="item">
                             <Link href="#">
