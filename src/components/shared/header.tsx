@@ -1,7 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import { FiMenu } from "react-icons/fi";
+import Link from "next/link";
+
 import { AiOutlineClose } from "react-icons/ai";
+import { BsGear } from "react-icons/bs";
+import { CiLogout } from "react-icons/ci";
+import { FiMenu } from "react-icons/fi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 import "./header.scss";
@@ -30,6 +34,22 @@ const Header = () => {
                 <span className="user-dropdown">
                     <MdOutlineKeyboardArrowDown />
                 </span>
+                <div className="user-info-dropdown">
+                    <ul>
+                        <li>
+                            <Link href="#">
+                                <BsGear size={14} />
+                                <span className="item-title">Settings</span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                                <CiLogout size={14} />
+                                <span className="item-title">Logout</span>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     );

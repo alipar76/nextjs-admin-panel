@@ -20,6 +20,7 @@
 
 .user-info {
     display: flex;
+    position: relative;
     padding: 5px 10px;
     transition: 0.3s ease all;
     border-radius: 10px;
@@ -27,6 +28,11 @@
     cursor: pointer;
     &:hover {
         background-color: rgb(251, 251, 251);
+    }
+    &:hover .user-info-dropdown {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
     }
     .user-name {
         padding-right: 5px;
@@ -39,5 +45,33 @@
     }
     .user-dropdown {
         padding-left: 5px;
+    }
+}
+
+.user-info-dropdown {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 111%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    border-radius: 5px;
+    transition: 0.2s ease all;
+    transform: translateY(-5%);
+    background-color: #fff;
+    font-size: 11px;
+    a {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        transition: 0.3s ease all;
+        span {
+            margin-left: 5px;
+        }
+        &:hover {
+            background-color: rgb(251, 251, 251);
+        }
     }
 }
