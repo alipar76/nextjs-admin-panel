@@ -27,7 +27,9 @@ const Sidebar = () => {
                             </Link>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link href="#">Dashboard</Link>
+                                    <Link href="#">
+                                        <strong>Dashboard</strong>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
@@ -39,7 +41,9 @@ const Sidebar = () => {
                             </Link>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link href="#">Products</Link>
+                                    <Link href="#">
+                                        <strong>Products</strong>
+                                    </Link>
                                 </li>
                                 <li>
                                     <Link href="#">
@@ -63,7 +67,9 @@ const Sidebar = () => {
                             </Link>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link href="#">Categories</Link>
+                                    <Link href="#">
+                                        <strong>Categories</strong>
+                                    </Link>
                                 </li>
                                 <li>
                                     <Link href="#">
@@ -86,7 +92,9 @@ const Sidebar = () => {
                             </Link>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link href="#">Comments</Link>
+                                    <Link href="#">
+                                        <strong>Comments</strong>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
@@ -97,7 +105,9 @@ const Sidebar = () => {
                             </Link>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link href="#">Blogs</Link>
+                                    <Link href="#">
+                                        <strong>Blogs</strong>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>

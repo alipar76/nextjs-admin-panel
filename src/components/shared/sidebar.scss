@@ -68,10 +68,6 @@
             background-color: rgb(227, 255, 255);
             color: rgb(0, 156, 156);
         }
-
-        &:hover .dropdown-menu {
-            display: block;
-        }
     }
     &:hover .dropdown-menu {
         visibility: visible;
@@ -90,9 +86,9 @@
     transition: 0.3s ease all;
     background-color: #fff;
     box-shadow: 2px 1px 6px 0px rgb(222, 222, 222);
-    transform: translateY(-20%);
+    transform: translateY(-15%);
     a {
-        padding: 10px 20px;
+        padding: 10px 40px;
         transition: 0.3s all ease;
         font-size: 13px;
         span {
@@ -103,6 +99,13 @@
         }
         &:hover svg {
             transform: translateX(3px);
+        }
+    }
+    li {
+        &:not(:first-child) {
+            a {
+                padding: 10px 15px;
+            }
         }
     }
 }
