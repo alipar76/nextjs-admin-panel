@@ -69,6 +69,10 @@
             color: rgb(0, 156, 156);
         }
     }
+    &:hover > a {
+        background-color: rgb(227, 255, 255);
+        color: rgb(0, 156, 156);
+    }
     &:hover .dropdown-menu {
         visibility: visible;
         transform: translateY(0);
