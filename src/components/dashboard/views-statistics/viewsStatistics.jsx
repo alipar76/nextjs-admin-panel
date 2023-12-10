@@ -48,10 +48,10 @@ const ViewsStatistics = () => {
         labels,
         datasets: [
             {
-                label: "Sales amount ($)",
+                label: "Total views",
                 data: [150, 110, 200, 70, 125, 170, 100],
                 fill: false,
-                borderColor: "rgb(150, 70, 80)",
+                borderColor: "rgb(51, 153, 255)",
                 tension: 0.1,
             },
         ],
