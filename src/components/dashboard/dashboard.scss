@@ -32,6 +32,30 @@
                 color: rgb(75, 192, 192);
             }
         }
+        .user-icon {
+            padding: 12px;
+            border-radius: 50%;
+            background-color: rgb(215, 238, 255);
+            svg {
+                color: rgb(86, 149, 198);
+            }
+        }
+        .order-icon {
+            padding: 12px;
+            border-radius: 50%;
+            background-color: rgb(254, 226, 237);
+            svg {
+                color: rgb(214, 126, 161);
+            }
+        }
+        .product-icon {
+            padding: 12px;
+            border-radius: 50%;
+            background-color: rgb(255, 249, 221);
+            svg {
+                color: rgb(223, 189, 40);
+            }
+        }
         .card-title {
             font-size: 13px;
             margin-bottom: 5px;

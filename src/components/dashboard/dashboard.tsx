@@ -28,7 +28,7 @@ const Dashboard = () => {
                 </div>
                 <div className="card">
                     <div>
-                        <div className="income-icon">
+                        <div className="user-icon">
                             <FaUser />
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const Dashboard = () => {
                 </div>
                 <div className="card">
                     <div>
-                        <div className="income-icon">
+                        <div className="order-icon">
                             <BsBasket3 />
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const Dashboard = () => {
                 </div>
                 <div className="card">
                     <div>
-                        <div className="income-icon">
+                        <div className="product-icon">
                             <SlBasketLoaded />
                         </div>
                     </div>
