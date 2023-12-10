@@ -13,6 +13,9 @@ const options = {
             display: true,
             text: "Sales amount in last 7 days",
         },
+        legend: {
+            display: false,
+        },
     },
     responsive: true,
     scales: {
@@ -23,8 +26,16 @@ const options = {
             },
         },
         y: {
+            ticks: {
+                display: false,
+                beginAtZero: true,
+            },
             stacked: true,
             grid: {
+                drawBorder: false,
+                display: false,
+            },
+            border: {
                 display: false,
             },
         },
