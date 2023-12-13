@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) admin panel project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project just includes dashboard page and implemented by [Sass]. The design is not responsive.
+This is a [Next.js](https://nextjs.org/) admin panel project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project just includes dashboard page and implemented by [Sass](https://sass-lang.com/). The design is not responsive.
 
 ## Getting Started
 
