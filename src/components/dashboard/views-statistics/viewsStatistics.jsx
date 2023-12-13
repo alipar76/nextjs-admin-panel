@@ -62,7 +62,7 @@ const ViewsStatistics = () => {
                 label: "Total views",
                 data: [150, 110, 200, 70, 125, 170, 100],
                 fill: false,
-                borderColor: "rgb(51, 153, 255)",
+                borderColor: "rgb(214, 126, 161)",
                 tension: 0.1,
             },
         ],
